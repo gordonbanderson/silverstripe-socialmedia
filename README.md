@@ -1,4 +1,21 @@
-# silverstripe-socialmedia
+# SilverStripe Social Media
+[![Build Status](https://travis-ci.org/gordonbanderson/silverstripe-socialmedia.svg?branch=master)](https://travis-ci.org/gordonbanderson/silverstripe-socialmedia)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/badges/build.png?b=master)](https://scrutinizer-ci.com/g/gordonbanderson/silverstripe-socialmedia/build-status/master)
+[![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-socialmedia/coverage.svg?branch=master)](https://codecov.io/github/gordonbanderson/silverstripe-socialmedia?branch=master)
+
+[![Latest Stable Version](https://poser.pugx.org/suilven/silverstripe-socialmedia/version)](https://packagist.org/packages/suilven/silverstripe-socialmedia)
+[![Latest Unstable Version](https://poser.pugx.org/suilven/silverstripe-socialmedia/v/unstable)](//packagist.org/packages/suilven/silverstripe-socialmedia)
+[![Total Downloads](https://poser.pugx.org/suilven/silverstripe-socialmedia/downloads)](https://packagist.org/packages/suilven/silverstripe-socialmedia)
+[![License](https://poser.pugx.org/suilven/silverstripe-socialmedia/license)](https://packagist.org/packages/suilven/silverstripe-socialmedia)
+[![Monthly Downloads](https://poser.pugx.org/suilven/silverstripe-socialmedia/d/monthly)](https://packagist.org/packages/suilven/silverstripe-socialmedia)
+[![Daily Downloads](https://poser.pugx.org/suilven/silverstripe-socialmedia/d/daily)](https://packagist.org/packages/suilven/silverstripe-socialmedia)
+
+[![Dependency Status](https://www.versioneye.com/php/suilven:silverstripe-socialmedia/badge.svg)](https://www.versioneye.com/php/suilven:silverstripe-socialmedia)
+[![Reference Status](https://www.versioneye.com/php/suilven:silverstripe-socialmedia/reference_badge.svg?style=flat)](https://www.versioneye.com/php/suilven:silverstripe-socialmedia/references)
+
+![codecov.io](https://codecov.io/github/gordonbanderson/silverstripe-socialmedia/branch.svg?branch=master)
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
@@ -7,23 +24,9 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-**Note:** Replace ```Gordon Anderson``` ```gordonbanderson``` ```https://github.com/gordonbanderson``` ```gordon.b.anderson@gmail.com``` ```suilven``` ```silverstripe-socialmedia``` ```Configure social media sources from the SiteConfig``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md) and [composer.json](composer.json) files, then delete this line. You can run `$ php prefill.php` in the command line to make all replacements at once. Delete the file prefill.php as well.
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
-
-## Structure
-
-If any of the following are applicable to your project, then the directory structure should follow industry best practices by being named the following.
-
-```
-bin/        
-config/
-src/
-tests/
-vendor/
-```
-
+# Functionality 
+Currently adds a social media tab to the site configuration in SilverStripe, with the opportunity to add usernames for
+several popular services.
 
 ## Install
 
@@ -33,12 +36,6 @@ Via Composer
 $ composer require suilven/silverstripe-socialmedia
 ```
 
-## Usage
-
-``` php
-$skeleton = new Suilven\SocialMedia();
-echo $skeleton->echoPhrase('Hello, League!');
-```
 
 ## Change log
 
@@ -67,17 +64,5 @@ If you discover any security related issues, please email gordon.b.anderson@gmai
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/suilven/silverstripe-socialmedia.svg?style=flat-square
-[ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/suilven/silverstripe-socialmedia/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/suilven/silverstripe-socialmedia.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/suilven/silverstripe-socialmedia.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/suilven/silverstripe-socialmedia.svg?style=flat-square
-
-[link-packagist]: https://packagist.org/packages/suilven/silverstripe-socialmedia
-[link-travis]: https://travis-ci.org/suilven/silverstripe-socialmedia
-[link-scrutinizer]: https://scrutinizer-ci.com/g/suilven/silverstripe-socialmedia/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/suilven/silverstripe-socialmedia
-[link-downloads]: https://packagist.org/packages/suilven/silverstripe-socialmedia
-[link-author]: https://github.com/gordonbanderson
-[link-contributors]: ../../contributors
+## TODO
+* Add sample templates
