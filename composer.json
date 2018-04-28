@@ -20,17 +20,17 @@
         "php" : "~5.6|~7.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : ">=5.4.3",
+        "phpunit/phpunit": "^5.7",
         "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            "Suilven\\SocialMedia\\": "src"
+            "Suilven\\SocialMediaSources\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Suilven\\SocialMedia\\": "tests"
+            "Suilven\\SocialMediaSources\\": "tests"
         }
     },
     "scripts": {
@@ -45,5 +45,7 @@
     },
     "config": {
         "sort-packages": true
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
