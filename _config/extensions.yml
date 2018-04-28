@@ -1,0 +1,8 @@
+---
+Name: socialmediasources
+---
+
+#For the about us in the footer
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - Suilven\SocialMediaSources\Extension\SocialMediaSourcesExtension
